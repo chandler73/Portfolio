@@ -1,0 +1,68 @@
+Shawn Herdina
+Basic Vocab Check
+
+    What is a variable?
+Variable is a named piece of memory where you can stash the value of something.
+
+    What is a variable declaration?
+When you reserve a chunk of memory to declare. ex= int num;
+
+    What is a variable assignment?
+When you give the variable an assigned value. ex = int num=0;
+
+    Can I declare and assign a variable on the same line?
+Yes you can declare and assign a variable on the same line. ex = boolean isDone = false;
+
+    Can a method return more than one value?
+Methods only return one value.
+
+
+    What return type is must be declared for methods that do not return a value?
+If your method doesn't return a value the return type must be void.
+
+
+    How are code blocks marked in Java?
+Code blocks are marked by squiggly brackets. ex-{}
+
+    What makes up a method's signature?
+Method's name and parameter types.
+
+    What is a method parameter?
+Method parameters are placeholders for values that will be "passed in" as data for the method to work on.
+
+    How many parameters can a method have?
+Method can have up to 255 parameters.
+
+    Do all of the parameters for a method have to be of the same type?
+No they can be different its called method overloading. ex- public static int promptMinMaxInt(String prompt, int min, int max
+
+    What does the import keyword do?
+Brings a class over so you can use it in your current project. ex= import java.util.Scanner;
+
+    What is the naming convention for Java classes?
+Class names should be nouns and begin with a capital letter.
+
+    What is the naming convention for Java variables?
+Can include number or letters and begin with a lower case and internal words start with capital letters. Can't have a space in the name but can include underscore.
+
+    What is the naming convention for Java methods?
+Methods should be verbs and begin with lowercase letter.
+
+    What is a method body?
+
+    What is an array?
+An array is a container that holds a fixed number of values of the same data type.
+
+    When is it better to use a for loop over a while loop?
+A for loop would be for a set amount of times to run. A while loop only runs if the condition is true. For loop is better if you know how many times you want the loop to run.
+
+    What is the difference between a while loop and a do/while loop?
+A do/while loop will run at least once.
+
+
+    What is a switch statement?
+The switch statement is an alternative construct that allows for condition execution.
+
+
+    What is scope?
+Scope refers to lifetime and accessibility of a variable.

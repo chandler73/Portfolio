@@ -1,0 +1,3 @@
+DVDLibrary is an example of an object oriented program that interfaces through the console. The program uses java to manage a library of DVDs. Through the console interface, users can add, remove, and edit dvds in the library.
+
+This program focuses on using java to create objects, store those objects in an Array List, retrieve objects, edit objects, remove objects, and write files out to a text document for persistent storage.
