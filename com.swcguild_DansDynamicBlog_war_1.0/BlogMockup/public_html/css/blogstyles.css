@@ -1,0 +1,111 @@
+
+* {
+    font-size: 1em;
+}
+
+body {
+    background: #ddd;
+}
+
+#header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+    background: #333;
+
+}
+
+#header h1 {
+    margin-top: 25px;
+    margin-left: 10%;
+    float: left;
+    font-size: 3em;
+    color: white;
+}
+
+#login-button {
+    float: right;
+    margin-right: 10%;
+    margin-top: 30px;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+#left-links {
+    background: white;
+    position: fixed;
+    height: 100%;
+}
+
+#page-links,
+#category-links {
+    background: #ddd;
+    width: 90%;
+
+}
+
+#page-links {
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#category-links {
+    padding: 20px;
+}
+
+#page-links a,
+#category-links a {
+    cursor: pointer;
+}
+
+#page-links a {
+    display: block;
+    margin-left: 20px;
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+#category-links a {
+    font-size: 1.1em;
+    margin-right: 25px;
+}
+
+#announcements,
+#blog-content {
+    background: white;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.announcement,
+.blog {
+    width: 90%;
+    background: #ddd;
+    padding: 10px 5%;
+    
+}
+
+.announcement {
+    border: 2px solid red;
+}
+
+.announcement h2 {
+    margin-top: 5px;
+}
+
+.blog {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-categories a {
+    cursor: pointer;
+    margin-right: 20px;
+}

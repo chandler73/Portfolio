@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/blogstyles.css" />
+        <title>Dan's Dynamic Blog</title>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Dan's Dynamic Blog</h1>
+            <button id="login-button" class='btn btn-default'>
+                Log In
+            </button>
+        </div>
+        <div class='container'>
+
+            <div class="col-md-4" id="left-links">
+                <div id="page-links">
+                    <a class="page-link"
+                       data-page-id="dummyID" 
+                       data-target="pages-modal"
+                       data-toggle="modal">Page One</a>
+                    <a class="page-link"
+                       data-page-id="dummyID" 
+                       data-target="pages-modal"
+                       data-toggle="modal">Page Two</a>
+                    <a class="page-link"
+                       data-page-id="dummyID" 
+                       data-target="pages-modal"
+                       data-toggle="modal">Page Three</a>
+                    <a class="page-link"
+                       data-page-id="dummyID" 
+                       data-target="pages-modal"
+                       data-toggle="modal">Page Four</a>
+                </div>
+                <div id="category-links">
+                    <a>things I hate</a>
+                    <a>I was caffeinated when I wrote this</a>
+                    <a>sales</a>
+                    <a>alexander hamilton</a>
+                    <a>butts</a>
+                    <a>i am 12</a>
+                    <a>drag queens</a>
+                    <a>very coupons</a>
+                    <a>much deals</a>
+                    <a>how many more categories</a>
+                    <a>just one</a>
+                </div>
+            </div>
+            <div class="col-md-offset-4 col-md-8" id="announcements">
+                <div class="announcement">
+                    <h2>This is an IMPORTANT ANNOUNCEMENT</h2>
+                    <p>I will be having all the sales this weekend. ALL the sales.</p>
+                    <p>Additionally, I have been listening to the soundtrack to "Hamilton" on repeat all day, possibly my roommates hate me. I don't know why this is part of the announcement. I'm going to lorem ipsum from now on.</p>
+                </div>
+            </div>
+            <div class="col-md-offset-4 col-md-8" id="blog-content">
+                <div class='blog'>
+                    <h3>Nov 8, 2015</h3>
+                    <p>Yr kogi slow-carb, id gentrify viral literally pabst delectus retro. Next level roof party shoreditch, church-key ennui farm-to-table cillum disrupt. Art party ennui kale chips, readymade ethical before they sold out placeat chicharrones pinterest bitters. Drinking vinegar labore aute, deep v hella synth sint ea polaroid pariatur literally. Deep v chartreuse gluten-free labore placeat exercitation, semiotics slow-carb try-hard nesciunt post-ironic. Forage four loko food truck portland cardigan meditation, pabst labore hella. Nesciunt esse gluten-free, pork belly fingerstache exercitation hammock roof party elit cornhole four dollar toast.</p>
+                    <p>Flexitarian vinyl celiac kogi food truck, jean shorts fugiat franzen. Intelligentsia tattooed scenester, listicle tilde cliche sustainable chia irony pour-over. Art party mumblecore knausgaard tattooed. Whatever retro flannel sapiente occaecat post-ironic, bicycle rights vero you probably haven't heard of them shabby chic viral kombucha. Paleo sartorial DIY, williamsburg chia aliqua aesthetic deep v sunt elit selfies butcher cronut. Swag labore laboris chicharrones, nihil flexitarian dreamcatcher nesciunt banjo single-origin coffee asymmetrical four dollar toast et officia migas. Artisan duis yuccie, deep v ullamco fugiat tote bag veniam listicle.</p>
+                    <div class='blog-categories'>
+                        <a>butts</a>
+                        <a>sales</a>
+                    </div>
+                </div>
+                <div class='blog'>
+                    <h3>Nov 5, 2015</h3>
+                    <p>Heirloom tote bag dreamcatcher culpa, authentic jean shorts helvetica. Gastropub four dollar toast veniam cold-pressed trust fund lumbersexual, tousled meditation ugh franzen. Shoreditch sartorial readymade intelligentsia et. Excepteur pour-over bespoke heirloom elit, DIY keytar pitchfork etsy butcher. Do waistcoat banh mi sapiente pickled, deep v ullamco twee. Tacos quis dolor, paleo offal mlkshk commodo ennui ex veniam occaecat. Literally distillery kickstarter, et cornhole quinoa normcore kale chips tote bag vero twee chillwave.</p>
+                    <div class="blog-categories">
+                        <a>alexander hamilton</a>
+                        <a>i am 12</a>
+                        <a>just one</a>
+                        <a>how many more categories</a>
+                        <a>I was caffeinated when I wrote this</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="pages-modal" tabindex="-1" role="dialog"
+             aria-labelledby="pages-modal-label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span>
+                            <span class="sr-only">Close</span>
+                        </button>
+                        <h4 class="modal-title" id="pages-modal-label"></h4>
+                    </div>
+                    <div class="modal-body">
+                        <h3 id="page-id"></h3>
+                        <div id="page-conent"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </div>     
+            </div>
+        </div>
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/blogJS.js"></script>
+    </body>
+
+
+
+</html>
